@@ -3,23 +3,26 @@
     margin: 0%;
 }
 body{
-    background-color: rgba(117, 231, 231, 0.114);
+    background-color:rgb(232, 70, 12)
 }
 .d1{
     height:610px;
     width:1100px;
     margin-left:190px;
     margin-top:110px;
-    border-radius:20px;
-    background-color:rgba(101, 199, 226, 0.307);
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius:40px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    background-color:white;
     
 }
 #navbar{
     height:50px;
     width:1100px; 
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
-    background-color: rgba(165, 173, 211, 0.03);
+     border-top-left-radius:20px;
+     border-top-right-radius:20px;
+    background-color:black;
 
 }
 #portfolio{
@@ -28,31 +31,64 @@ body{
     margin-left:10px;
     margin-top:15px; 
     display: inline;
+    color:orangered;
 }
 #nav1{
     margin-left:200px;
     text-decoration:none;
-    color: black;
+    color: white;
 }
 #nav{
     margin-left:175px;
     text-decoration:none;
-    color: black;
+    color: white;
+    
 }
 #img{
     height:350px;
-    width:350;
-    border-radius:100%;   
-}
-#image{
-    background-color: rgb(247, 247, 246);
+    width:350px;
+    background-color:rgb(1, 1, 1);
     margin-top:100px;
-    margin-left:40px;
-    height:350px;
-    width: 350px;
+    margin-left:70px;
     border-radius:100%;
 }
+#pfp{
+    height:350px;
+    width:350px;
+    border-radius:100%;
+}
+#img1{
+    height:350px;
+    width:500px;
+    background-color:white;
+    margin-top:-325px;
+    margin-left:550px;
+}
+#Hi{
+    font-size: x-large;
+}
 p{
-    margin-left:500px;
-    margin-bottom:-100px;
+    font-size:xx-large;
+}
+#name{
+    color:rgb(255, 69, 0);
+}
+#p1{ 
+      font-size:xx-large;
+     
+}
+#p2{ font-size:large;
+   
+}
+#p3{ font-size:large;
+
+}
+button{
+    height:30px;
+    width:90px;
+    margin-left:20px;
+    color: aliceblue;
+    background-color:orangered;
+    border-radius:20px;
+    border-color: black;
 }
